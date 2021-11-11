@@ -55,7 +55,7 @@ The following **bonus** features are implemented:
 * Messaging
 
 ## Wireframes
-<img src="https://imgur.com/0jLvQUh" width=600>
+<img src="https://github.com/Jagato/classs-mentors/blob/main/Wireframe.jpeg" width=1000>
 
 
 ## Video Walkthrough
