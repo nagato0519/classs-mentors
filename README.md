@@ -58,6 +58,47 @@ The following **bonus** features are implemented:
 <img src="https://github.com/Jagato/classs-mentors/blob/main/Wireframe.jpeg" width=1000>
 
 
+## Schema
+### Models
+#### Thread
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the thread (default field) |
+   | author        | Pointer to User| image author |
+   | image         | File     | image that user posts |
+   | title         | String   | title that user writes |
+   | commentsCount | Number   | number of comments that has been posted to a thread |
+   | description   | String   | text description of the thread |
+   | createdAt     | DateTime | date when post is created (default field) |
+   | updatedAt     | DateTime | date when post is last updated (default field) |
+
+### User
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | username      | String   | username user chooses|
+   | name          | String   | actual name |
+   | image         | File     | profile image  |
+   | password      | String   | password |
+   | email         | String   | email associated with account |
+   | bio           | String   | biographic info |
+   | classification| String   | year classification for user |
+   | school        | String   | name of school user is attending |
+   | major         | String   | user's major |
+   | classList     | String List | list of classes taken |
+
+### Networking
+#### List of network requests by screen
+   - Profile Screen
+      - (Read/GET) Query all threads where user is author
+      - (Create/POST) Create a new thread
+      - (Delete) Delete existing thread
+   - Create Thread Screen
+      - (Create/POST) Create a new thread
+   - Home Screen
+      - (Read/GET) Query all threads user is following
+   - Messaging Screen
+      - (Read/GET) Query all recent user contacts & messages
+      - (Create) New text messages
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
