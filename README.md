@@ -36,10 +36,15 @@ The following **bonus** features are implemented:
 
 ### Screen Archetypes
 * Login
+   * User can login to their account
 * Register
+   * User can set up profile information
 * Messaging
+   * User can direct message mentors and other students
 * Profile
+   * User can view authored threads and view personal info
 * Discussion/Thread Board
+   * User can view threads and create new ones
 
 ### Navigation
 
