@@ -24,8 +24,8 @@ to reach out and connect.
 
 The following **required** functionality is completed:
 
-- [] User can log in & register an account.
-- [] User can create a profile containing classes taken, bio, classification, etc.
+- [x] User can log in & register an account.
+- [x] User can create a profile containing classes taken, bio, classification, etc.
 - [] Users can direct message other students and mentors
 - [] Users can post on a discussion board about a class
 
@@ -107,5 +107,8 @@ The following **bonus** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+Sprint 1:
 
-<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/Aq4OM6c.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+
